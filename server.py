@@ -40,11 +40,15 @@ os.makedirs("hls", exist_ok=True)
 
 @app.get("/")
 async def get_index():
-    return FileResponse("index.html")
+    return FileResponse("/home/tony-server/website/video-website-split/video-website-frontend/index.html")
 
-@app.get("/test")
-async def get_test():
-    return FileResponse("test.html")
+@app.get("/player.html")
+async def get_player():
+    return FileResponse("/home/tony-server/website/video-website-split/video-website-frontend/player.html")
+
+@app.get("/config.js")
+async def get_config():
+    return FileResponse("/home/tony-server/website/video-website-split/video-website-frontend/config.js")
 
 # static files
 app.mount("/posters", StaticFiles(directory="posters"), name="posters")
@@ -53,7 +57,7 @@ app.mount("/videos", StaticFiles(directory="videos"), name="videos")
 
 @app.get("/player")
 async def get_player():
-    return FileResponse("player.html")
+    return FileResponse("/home/tony-server/website/video-website-split/video-website-frontend/player.html")
 
 # Function to scan videos directory and generate show data
 def scan_video_directory():
