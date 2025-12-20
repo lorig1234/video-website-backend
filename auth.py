@@ -9,11 +9,12 @@ from fastapi import Request, HTTPException, Depends
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 
 import database as db
+import config
 
-# Configuration
-SECRET_KEY = secrets.token_hex(32)  # In production, use environment variable
+# Configuration - using config.py for SECRET_KEY
+SECRET_KEY = config.SECRET_KEY
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_HOURS = 24 * 7  # 1 week
+ACCESS_TOKEN_EXPIRE_MINUTES = config.TOKEN_EXPIRE_MINUTES
 
 security = HTTPBearer(auto_error=False)
 
@@ -33,7 +34,7 @@ def verify_password(password: str, stored_hash: str) -> bool:
 
 def create_access_token(user_id: int, username: str) -> tuple[str, datetime]:
     """Create JWT access token"""
-    expires_at = datetime.utcnow() + timedelta(hours=ACCESS_TOKEN_EXPIRE_HOURS)
+    expires_at = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
     payload = {
         "user_id": user_id,
         "username": username,

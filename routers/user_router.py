@@ -440,3 +440,74 @@ async def get_user_ips(current_user: dict = Depends(require_auth)):
         "success": True,
         "ips": ips
     })
+
+
+@router.get(
+    "/last-episode-per-show",
+    summary="Get last watched episode for each show",
+    description="""
+    Get the most recently watched episode for each show.
+    
+    **🔒 Authentication Required**
+    
+    Include your token in the Authorization header:
+    ```
+    Authorization: Bearer <your_token>
+    ```
+    
+    **Returns:**
+    - Dictionary mapping show_id to the last watched episode info
+    - Useful for displaying "Continue watching from S02E05" on show cards
+    - Includes progress information and timestamps
+    
+    **Use Case:**
+    - Show "Continue watching" indicators on show thumbnails
+    - Display last watched episode info when user hovers over a show
+    """,
+    response_description="Last episode per show",
+    responses={
+        200: {
+            "description": "Last watched episodes by show",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "success": True,
+                        "data": {
+                            "breaking_bad": {
+                                "episode_id": "breaking_bad_s02_e05",
+                                "episode_title": "Breakage",
+                                "position_seconds": 1800,
+                                "duration_seconds": 3600,
+                                "progress_percent": 50.0,
+                                "watched_at": "2025-01-19T12:00:00"
+                            },
+                            "friends": {
+                                "episode_id": "friends_s01_e03",
+                                "episode_title": "The One with the Thumb",
+                                "position_seconds": 300,
+                                "duration_seconds": 1320,
+                                "progress_percent": 22.73,
+                                "watched_at": "2025-01-18T20:30:00"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        401: {
+            "description": "Not authenticated",
+            "content": {
+                "application/json": {
+                    "example": {"detail": "Not authenticated"}
+                }
+            }
+        }
+    }
+)
+async def get_last_episode_per_show(current_user: dict = Depends(require_auth)):
+    """Get the last watched episode for each show"""
+    data = db.get_last_episode_per_show(current_user["id"])
+    return JSONResponse({
+        "success": True,
+        "data": data
+    })

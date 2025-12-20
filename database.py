@@ -230,6 +230,34 @@ def get_watch_history(user_id: int, limit: int = 50) -> list:
     conn.close()
     return [dict(row) for row in rows]
 
+def get_last_episode_per_show(user_id: int) -> dict:
+    """Get the last watched episode for each show
+    
+    Returns a dictionary mapping show_id to the last watched episode info
+    Example: {"friends": {"episode_id": "friends_s01_e05", "progress_percent": 45, ...}}
+    """
+    conn = get_db()
+    cursor = conn.cursor()
+    cursor.execute('''
+        SELECT w1.* FROM watch_history w1
+        INNER JOIN (
+            SELECT show_id, MAX(watched_at) as max_watched
+            FROM watch_history
+            WHERE user_id = ?
+            GROUP BY show_id
+        ) w2 ON w1.show_id = w2.show_id AND w1.watched_at = w2.max_watched
+        WHERE w1.user_id = ?
+    ''', (user_id, user_id))
+    rows = cursor.fetchall()
+    conn.close()
+    
+    # Convert to dictionary keyed by show_id
+    result = {}
+    for row in rows:
+        row_dict = dict(row)
+        result[row_dict['show_id']] = row_dict
+    return result
+
 # IP tracking operations
 def log_user_ip(user_id: int, ip_address: str):
     """Log user IP address"""

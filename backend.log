@@ -1,0 +1,1466 @@
+nohup: ignoring input
+INFO:     Started server process [15785]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8087 (Press CTRL+C to quit)
+Database initialized successfully!
+
+🎬 Scanning video directory...
+✓ Added show: Friends (234 episodes, 10 seasons)
+✓ Added show: Attack On Titan (89 episodes, 4 seasons)
+✓ Added show: Modern Family.2009.S01-S11.720P.H264.X264.Aac-Zero00 (249 episodes, 11 seasons)
+✓ Added show: How I Met Your Mother (208 episodes, 9 seasons)
+📺 Found 4 shows
+
+INFO:     127.0.0.1:40380 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40922 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40936 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /friends.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /friends.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "POST /api/auth/logout HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /friends.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /friends.jpg HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "POST /api/auth/logout HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "POST /api/auth/logout HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "POST /api/auth/logout HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "POST /api/auth/logout HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "POST /api/auth/logout HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/auth/check HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "POST /api/auth/logout HTTP/1.1" 401 Unauthorized
+INFO:     None:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /friends.jpg HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/continue-watching HTTP/1.1" 401 Unauthorized
+INFO:     None:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /friends.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00 HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01 HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01 HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00 HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00 HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00 HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "POST /api/auth/logout HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e10 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e10 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e10 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e10 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e10 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e10 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/continue-watching HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /friends.jpg HTTP/1.1" 304 Not Modified
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows/friends_s01 HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 304 Not Modified
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 304 Not Modified
+INFO:     None:0 - "GET /api/shows/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00 HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     None:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "GET /api/stream/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows/modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00 HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     None:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     None:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     None:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     None:0 - "POST /api/auth/logout HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /friends.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/auth/logout HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /friends.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e18 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s04_e2 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /friends.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/attack%20on%20titan HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/attack%20on%20titan HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/attack%20on%20titan HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/attack%20on%20titan HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/shows/attack%20on%20titan HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /friends.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/attack%20on%20titan HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/attack%20on%20titan HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /friends.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e22 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /friends.jpg HTTP/1.1" 304 Not Modified
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e6 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /friends.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     10.0.0.138:0 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /friends.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /attack%20on%20titan.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /how%20i%20met%20your%20mother.jpg HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/friends_s01_e1 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/friends HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/user/last-episode-per-show HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /modern%20family.2009.s01-s11.720p.h264.x264.aac-zero00.jpg HTTP/1.1" 404 Not Found
+INFO:     10.0.0.138:0 - "GET /api/shows/attack%20on%20titan HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e25 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "POST /api/user/watch-progress HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/shows/attack%20on%20titan HTTP/1.1" 200 OK
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e26 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e26 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e26 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e26 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e26 HTTP/1.1" 206 Partial Content
+INFO:     10.0.0.138:0 - "GET /api/stream/attack%20on%20titan_s04_e26 HTTP/1.1" 206 Partial Content

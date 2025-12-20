@@ -20,6 +20,9 @@ import logging
 import re
 from pathlib import Path
 
+# Import configuration
+import config
+
 # Configure logging
 logging.getLogger("uvicorn.error").setLevel(logging.INFO)
 logging.getLogger("uvicorn.access").setLevel(logging.INFO)
@@ -102,10 +105,10 @@ app.add_middleware(
 )
 
 # Create necessary directories
-os.makedirs("posters", exist_ok=True)
-os.makedirs("hls", exist_ok=True)
-os.makedirs("videos", exist_ok=True)
-os.makedirs("data", exist_ok=True)
+os.makedirs(config.POSTERS_PATH, exist_ok=True)
+os.makedirs(config.HLS_PATH, exist_ok=True)
+os.makedirs(config.DATA_PATH, exist_ok=True)
+# Note: videos directory is not created - it should already exist at the configured path
 
 
 # ============== Video Directory Scanner ==============
@@ -113,9 +116,11 @@ os.makedirs("data", exist_ok=True)
 def scan_video_directory():
     """Scan videos directory and generate show data"""
     shows = []
-    videos_dir = Path("videos")
+    videos_dir = Path(config.VIDEOS_PATH)
     
     if not videos_dir.exists():
+        print(f"⚠️  Warning: Videos directory not found at: {config.VIDEOS_PATH}")
+        print(f"   Please update VIDEOS_PATH in config.py to point to your videos folder")
         return []
     
     # Scan each show directory
@@ -287,9 +292,8 @@ app.include_router(streaming_router.router)
 
 # ============== Static Files ==============
 
-app.mount("/posters", StaticFiles(directory="posters"), name="posters")
-app.mount("/hls", StaticFiles(directory="hls"), name="hls")
-app.mount("/videos", StaticFiles(directory="videos"), name="videos")
+app.mount("/posters", StaticFiles(directory=config.POSTERS_PATH), name="posters")
+app.mount("/hls", StaticFiles(directory=config.HLS_PATH), name="hls")
 
 
 # ============== Frontend Routes ==============
@@ -322,4 +326,4 @@ async def get_config():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8087)
+    uvicorn.run(app, host=config.SERVER_HOST, port=config.SERVER_PORT)
