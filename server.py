@@ -37,7 +37,7 @@ asyncio_logger = logging.getLogger("asyncio")
 asyncio_logger.addFilter(IgnoreConnectionResetFilter())
 
 # Import routers
-from routers import auth_router, user_router, shows_router, streaming_router
+from routers import auth_router, user_router, shows_router, streaming_router, movies_router, claude_router, subtitle_router
 
 # ============== App Configuration ==============
 
@@ -123,9 +123,9 @@ def scan_video_directory():
         print(f"   Please update VIDEOS_PATH in config.py to point to your videos folder")
         return []
     
-    # Scan each show directory
+    # Scan each show directory (skip "Movies" folder - handled separately)
     for show_dir in videos_dir.iterdir():
-        if show_dir.is_dir() and not show_dir.name.startswith('.'):
+        if show_dir.is_dir() and not show_dir.name.startswith('.') and show_dir.name.lower() != 'movies':
             show_name = show_dir.name.replace('_', ' ').title()
             show_id = show_dir.name.lower()
             
@@ -271,15 +271,98 @@ def scan_video_directory():
     return shows
 
 
+# ============== Movies Directory Scanner ==============
+
+def scan_movies_directory():
+    """Scan the Movies subdirectory and generate movie data"""
+    movies = []
+    movies_dir = Path(config.VIDEOS_PATH) / "Movies"
+    
+    if not movies_dir.exists():
+        print(f"ℹ️  No Movies directory found at: {movies_dir}")
+        return []
+    
+    for movie_folder in sorted(movies_dir.iterdir()):
+        if not movie_folder.is_dir() or movie_folder.name.startswith('.'):
+            continue
+        
+        # Find the first video file inside the folder
+        video_file = None
+        for ext in ('*.mp4', '*.mkv', '*.avi'):
+            found = list(movie_folder.glob(ext))
+            if found:
+                video_file = found[0]
+                break
+        
+        if not video_file:
+            continue
+        
+        folder_name = movie_folder.name
+        
+        # Try to extract title and year from folder name
+        # Patterns: "Title (Year) [quality]", "Title.Year.quality..."
+        year = None
+        title = folder_name
+        
+        # Pattern 1: "Title (Year) [extras]"
+        m = re.match(r'^(.+?)\s*\((\d{4})\)', folder_name)
+        if m:
+            title = m.group(1).strip()
+            year = int(m.group(2))
+        else:
+            # Pattern 2: "Title.Year.quality..."
+            m = re.search(r'^(.+?)[.\s](\d{4})[.\s]', folder_name)
+            if m:
+                title = m.group(1).replace('.', ' ').strip()
+                year = int(m.group(2))
+            else:
+                title = folder_name.replace('.', ' ').replace('_', ' ').strip()
+        
+        # Clean up title
+        title = re.sub(r'\[.*?\]', '', title).strip()
+        title = re.sub(r'(1080p|720p|480p|BluRay|BRRip|WEB-DL|HDTV|x264|x265|HEVC|YIFY|LAMA|TGx|AAC).*$', '', title, flags=re.IGNORECASE).strip()
+        title = title.rstrip('.-_ ')
+        
+        movie_id = re.sub(r'[^a-z0-9]+', '_', folder_name.lower()).strip('_')
+        
+        # Find poster image in the movie folder (jpg/jpeg)
+        poster_file = None
+        for pat in ('*.jpeg', '*.jpg'):
+            found = list(movie_folder.glob(pat))
+            if found:
+                poster_file = str(found[0])
+                break
+        
+        movie = {
+            "id": movie_id,
+            "title": title,
+            "year": year,
+            "file": str(video_file),
+            "poster_file": poster_file,
+            "poster": f"/api/movies/poster/{movie_id}" if poster_file else f"/posters/{movie_id}.jpg"
+        }
+        movies.append(movie)
+        year_str = f" ({year})" if year else ""
+        print(f"✓ Added movie: {title}{year_str}")
+    
+    return movies
+
+
 # ============== Initialize Data ==============
 
 print("\n🎬 Scanning video directory...")
 SHOWS = scan_video_directory()
 print(f"📺 Found {len(SHOWS)} shows\n")
 
+print("🎥 Scanning movies directory...")
+MOVIES = scan_movies_directory()
+print(f"🎥 Found {len(MOVIES)} movies\n")
+
 # Share shows data with routers
 shows_router.set_shows(SHOWS)
 streaming_router.set_shows(SHOWS)
+movies_router.set_movies(MOVIES)
+subtitle_router.set_movies(MOVIES)
 
 
 # ============== Register Routers ==============
@@ -288,6 +371,9 @@ app.include_router(auth_router.router)
 app.include_router(user_router.router)
 app.include_router(shows_router.router)
 app.include_router(streaming_router.router)
+app.include_router(movies_router.router)
+app.include_router(claude_router.router)
+app.include_router(subtitle_router.router)
 
 
 # ============== Static Files ==============
