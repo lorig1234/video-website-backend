@@ -1,0 +1,1 @@
+{"id": "1cccbfbc-4c43-4496-8b17-27072a0cf33e", "session_id": "f7976c37-8590-4835-b807-f7504bf72608", "timestamp": "2026-04-19T19:36:33.446152+00:00", "prompt": "Yes fix both issues", "response": "Error: When using --print, --output-format=stream-json requires --verbose\n", "preview": "Error: When using --print, --output-format=stream-json requires --verbose "}
